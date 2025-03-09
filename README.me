@@ -1,0 +1,7 @@
+This repository contains three C++ files that will be used for verifying passwords and confirming verification.
+
+1. logger.cpp: this program runs in the background as a child process and tracks all commands that are entered and their outputs.
+2. encryption.cpp: this program encodes then decodes text (specifically passwords) through a Vigenere Cypher algorithm and is another child process.
+3. driver.cpp: this program runs as the 'mainn' file to run the entire project. user inputs are tracked in this file then calls the two child processes to execute their respective functionalities.
+
+Note: The Vigenere cypher only works on letters and is case insensitive. However, this project will only use uppercase letters as test cases.
