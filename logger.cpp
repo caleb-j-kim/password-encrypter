@@ -25,7 +25,7 @@ string currentTimeStamp() { // Function to get the current time
     return ss.str();
 }
 
-int main(int argc, char* argv[]) {
+int main(int argc, char* argv[]) { // Reads in the user's input and logs it to a file
     if (argc != 2) {
         cerr << "Usage: " << argv[0] << " <logfile>" << endl;
         return 1;
